@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-UA-Compatible"  content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> ANSH CONTACT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(206, 239, 248);
+        color: rgb(7, 2, 11);
+        font-family: 'Poppins', sans-serif;
+    } 
+    .container {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .cont-box{
+        background: white;
+        display: flex;
+    }
+    .cont-left{
+        flex-basis: 60%;
+        padding: 40px 60px;
+    }
+    .cont-right{
+        flex-basis: 40%;
+        padding: 40px ;
+        background: gray;
+        color:white;
+    }
+    h1{
+        margin-bottom: 10px;
+
+    }
+    .container p{
+        margin-bottom: 40px;
+    }
+    .input-row{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .input-row .input-group{
+        flex-basis: 45%;
+
+    }
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+        outline: none;
+        padding-bottom: 5px;
+    }
+    textarea {
+        width: 100%;
+        border: 1px solid gray;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    label {
+        margin-bottom: 6px;
+        display: block;
+        color: gray;
+
+    }
+    button{
+        background: gray;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: white;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        box-shadow: 5spx 10px 15px 0px rgba(37, 23, 130, 0.3);
+    }
+    .cont-left h3 {
+        color: gray;
+        font-weight: 600;
+        margin-bottom: 40px;
+
+    }
+    .cont-right h3 {
+        
+        font-weight: 600;
+        margin-bottom: 40px;
+
+    }
+    tr td:first-child{
+        padding-right: 20px;
+        
+    }
+    tr td {
+        padding-top: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>connnect with us</h1>
+        <p>we would love to respond to your queries and help you succeed. Feel free to get in touch with us.</p>
+        <div class="cont-box">
+            <div class="cont-left">
+                <h3>
+                    Send Your request
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label >NAME</label>
+                                <input type="text" placeholder="Ansh Mehta">
+                            </div>
+                            <div class="input-group">
+                                <label >Phone</label>
+                                <input type="number" placeholder="+91 98465 87654">
+                            </div>
+                            
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label >Email</label>
+                                <input type="email" placeholder="anshmehta@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label >Subject</label>
+                                <input type="text" placeholder="Product Demo">
+                            </div>
+                            
+                        </div>
+                        <label >Massage</label>
+                        <textarea rows="5" placeholder="Your Massage"></textarea>
+                        <button type="submit"> SEND </button>
+                    </form>
+                </h3>
+                
+            </div>
+            <div class="cont-right"> <h3>
+                reach us
+            </h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>anshchawla701@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone </td>
+                    <td>+91 98138 *****</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>BUPP (SIRSA)<br>
+                    NEAR SUBHASH CHOWK<br>
+                HARYANA</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+   
+</body>
